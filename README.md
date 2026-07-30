@@ -13,7 +13,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./Screenshot 2026-07-30 at 11-38-53 Social links profile.png)
 
 ### Links
 
