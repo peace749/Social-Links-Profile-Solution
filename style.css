@@ -27,14 +27,14 @@ body{
     min-height: 100vh;
     background-color: var(--grey-900);
     font-family: "Inter", sans-serif;
-    padding: 1rem;
+    padding: clamp(1rem, 3vw, 1.3rem);
 }
 
 
 .card{
     background-color: var(--grey-800) ;
     width: min(19.3rem, 100%);
-    padding: 1.6rem;
+    padding: clamp(1.6rem, 3vw, 1.8rem);
     border-radius: 1rem;
     text-align: center;
 }
@@ -51,7 +51,7 @@ h1{
     color: var(--white);
     font-size: 1.5625rem;
     font-weight: 700;
-    margin-bottom: 0.4rem;
+    margin-block-end: 0.4rem;
    
 }
 
@@ -59,7 +59,7 @@ h1{
     color: var(--green);
     font-size: 0.875rem;
     font-weight: 600;
-    margin-bottom: 1.2rem;
+    margin-block-end: 1.2rem;
     
 
 }
@@ -80,7 +80,7 @@ nav a{
    text-decoration: none;
    background-color: var(--grey-700);
    border-radius: 0.25rem;
-   padding: 0.75rem;
+   padding: clamp(0.75rem, 3vw, 0.78rem);
    color: var(--white);
    text-align: center;
    font-size: 0.875rem;
