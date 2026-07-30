@@ -49,7 +49,7 @@ body{
 
 h1{
     color: var(--white);
-    font-size: 1.5625rem;
+    font-size: clamp(1.5rem, 1.2rem + 1vw, 1.5625rem);
     font-weight: 700;
     margin-block-end: min(0.4rem, 5vw);
    
