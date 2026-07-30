@@ -33,7 +33,7 @@ body{
 
 .card{
     background-color: var(--grey-800) ;
-    width: min(19.4rem, 100%);
+    width: min(20rem, 100%);
     padding: clamp(1.6rem, 3vw, 1.7rem);
     border-radius: 1rem;
     text-align: center;
