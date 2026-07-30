@@ -71,4 +71,4 @@ The AI helped explain concepts, but I wrote and tested the code myself.
 
 ## Author
 
-- Frontend Mentor - [@YOUR_USERNAME](https://www.frontendmentor.io/profile/YOUR_USERNAME)
+- Frontend Mentor - [@peace749](https://www.frontendmentor.io/profile/peace749)
