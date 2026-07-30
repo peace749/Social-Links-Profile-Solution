@@ -17,7 +17,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: Add your Frontend Mentor solution URL here
+- Solution URL: https://github.com/peace749/Social-Links-Profile-Solution.git
 - Live Site URL: https://peace749.github.io/Social-Links-Profile-Solution/
 
 ## My Process
