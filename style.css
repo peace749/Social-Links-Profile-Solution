@@ -44,14 +44,14 @@ body{
     border-radius: 50%;
     width: 5.3125rem;
     aspect-ratio: 1;
-    margin-block-end: 1.5rem;
+   margin-block-end: min(1.5rem, 5vw);
 }
 
 h1{
     color: var(--white);
     font-size: 1.5625rem;
     font-weight: 700;
-    margin-block-end: 0.4rem;
+    margin-block-end: min(0.4rem, 5vw);
    
 }
 
@@ -59,7 +59,7 @@ h1{
     color: var(--green);
     font-size: 0.875rem;
     font-weight: 600;
-    margin-block-end: 1.2rem;
+    margin-block-end: min(1.2rem, 5vw);
     
 
 }
@@ -73,7 +73,7 @@ nav{
     display: flex;
     flex-direction: column;
     gap: 0.9375rem;   
-    margin-block-start: 1.2rem;
+    margin-block-start: min(1.2rem, 5vw);
 }
 
 nav a{
