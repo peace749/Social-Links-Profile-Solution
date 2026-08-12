@@ -1,6 +1,6 @@
- @font-face {
-    font-family: "Inter";
-    src: url("./fonts/Inter-VariableFont_slnt\,wght.ttf") format("truetype");
+@font-face {
+    font-family: "DM Sans";
+    src: url("assets/fonts/DMSans-VariableFont.ttf") format("truetype");
     font-weight: 100 900;
     font-style: normal;
 }
@@ -26,7 +26,7 @@ body{
     place-content: center;
     min-height: 100vh;
     background-color: var(--grey-900);
-    font-family: "Inter", sans-serif;
+    font-family: "DM Sans", sans-serif;
     padding: clamp(1rem, 3vw, 1.3rem);
 }
 
@@ -88,9 +88,22 @@ nav a{
 }
 
 nav a:hover,
-nav a:focus{
+nav a:focus-visible{
     background-color: var(--green);
     color: var(--grey-800);
     cursor: pointer;
          
+}
+
+nav a:focus-visible {
+    outline: 2px solid var(--green);
+    outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms;
+        animation-iteration-count: 1;
+        transition-duration: 0.01ms;
+    }
 }
